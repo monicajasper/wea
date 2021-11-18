@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!--<span class="Apple-converted-space"> </span></p>
+<p class="p1">HTML5</p>
+<p class="p2"><br></p>
+<p class="p1">Survey Form for FreeCodeCamp Responsive Web Design Project</p>
+<p class="p2"><br></p>
+<p class="p1">Author: Monica Jasper</p>
+<p class="p1">Date: September 2021</p>
+<p class="p2"><br></p>
+<p class="p1">Simple web page with minimal styling using responsive media.</p>
+<p class="p2"><br></p>
+<p class="p1">Survey form themed with kiwi slang.</p>
+<p class="p1">--&gt;</p>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Wea (Kiwi) Survey&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" type="text/css" href="style.css" media="screen" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;body&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1 id="title"&gt;Survey&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p id="description"&gt;Chur! Howz it mate? If you're keen, please take this wee survey... that'd be sweet as. I'll stop faffn' about, so let's knuckle under and get crackin, eh. Ka pai!&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt; <span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;form id="survey-form" action="place-where-you-submit-data"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="form-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label id="name-label" for="name" class="label"&gt;Name:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input id="name" type="text" placeholder="Enter your name" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="form-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label id="email-label" for="email" class="label"&gt;Email:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input id="email" type="email" placeholder="Enter your email address" required&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="form-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label id=“phone-label" for=“phone” class="label"&gt;Phone number:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input id=“phone" type=“tel” pattern=“[0-9]{10}]” placeholder="Enter your phone number"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="form-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="label"&gt;How do you feel today?&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="mint" class="feels"&gt;&lt;input id="mint" type="checkbox" name="feelings" value="mint"&gt;mint&lt;/label&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="keen" class="feels"&gt;&lt;input id="keen" type="checkbox" name="feelings" value="keen"&gt;keen&lt;/label&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="sus" class="feels"&gt;&lt;input id="sus" type="checkbox" name="feelings" value="sus"&gt;sus&lt;/label&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="crook" class="feels"&gt;&lt;input id="crook" type="checkbox" name="feelings" value="crook"&gt;crook&lt;/label&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="munted" class="feels"&gt;&lt;input id="munted" type="checkbox" name="feelings" value="munted"&gt;munted&lt;/label&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label for="chocka" class="feels"&gt;&lt;input id="chocka" type="checkbox" name="feelings" value="chocka"&gt;chocka&lt;/label&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="form-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label id="dropdown" for="weather" class="label"&gt;How's the weather?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;select name="weather" id="dropdown"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option value=""&gt;&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option value="beaut"&gt;beaut&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option value="crackin"&gt;crackin&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option value="howlin"&gt;howlin&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option value="grotto"&gt;grotto&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option value="chilly"&gt;chilly&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;option value="beright"&gt;she'll be right&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="form-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="label"&gt;Do you want to be friends?&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="yes" class="yesno"&gt;&lt;input id="yes" type="radio" name="friends" value="nah yeah"&gt;nah yeah&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;label for="no" class="yesno"&gt;&lt;input id="no" type="radio" name="friends" value="yeah nah" checked&gt;yeah nah&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="form-question"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label id="comments-label" for="comments" class="label"&gt;What's on your mind?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;textarea id="comments" type="textarea" placeholder="Heaps..."&gt;&lt;/textarea&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button id="submit" type="submit" class="submit-button"&gt;Submit&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/form&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer id="footer"&gt;Tuatara photo credit: Karissa Best Photography&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
