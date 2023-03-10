@@ -97,7 +97,7 @@ p
     font-size: 0.9rem;
   }
   
-  input, option, .feels, .yesno, select-placeholder, ::placeholder
+  input, option, .feels, .yesno, .select-placeholder, ::placeholder
   {
     font-size: 0.75rem;
   }
