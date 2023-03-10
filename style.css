@@ -5,6 +5,7 @@ Survey Form for FreeCodeCamp Responsive Web Design Project
 
 Author: Monica Jasper
 Date: September 2021
+Update: March 2023
 */
 
 /*background styling*/
@@ -97,7 +98,7 @@ p
     font-size: 0.9rem;
   }
   
-  input, option, .feels, .yesno, .select-placeholder, ::placeholder
+  input, option, .feels, .yesno, ::placeholder
   {
     font-size: 0.75rem;
   }
